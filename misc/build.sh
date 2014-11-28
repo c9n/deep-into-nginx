@@ -6,5 +6,9 @@
 
 cd ../nginx
 
-./configure --with-http_ssl_module --with-cc-opt="-Wno-deprecated-declarations"
+./configure --with-debug --with-http_ssl_module --with-cc-opt="-Wno-deprecated-declarations -g -O0"
+
+make -B CFLAGS="-g -O0"
+
+make install
 

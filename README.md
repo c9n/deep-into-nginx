@@ -15,3 +15,5 @@ Version: 1.6.2
 
 [Guide to Faster, Less Frustrating Debugging](http://heather.cs.ucdavis.edu/~matloff/UnixAndC/CLanguage/Debug.html)
 
+[Nginx开发从入门到精通](https://github.com/taobao/nginx-book)
+

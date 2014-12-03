@@ -7,9 +7,9 @@
 
 cd ../nginx
 
-./configure --with-debug --with-http_ssl_module --with-cc-opt="-g -O0"
+./configure --with-debug --with-http_ssl_module
 
-make -B CFLAGS="-g -O0"
+make -B CFLAGS="-ggdb3 -O0"
 
 rm -rf /usr/local/nginx
 

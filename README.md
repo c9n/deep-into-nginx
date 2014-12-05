@@ -2,9 +2,13 @@ Deep into Nginx
 ===============
 
 
-## Source
+## Env
 
-Version: 1.6.2
+| Name | Value |
+| :--- | :---: |
+| Nginx Version | 1.6.2 |
+| Location | /opt/deep-into-nginx|
+| OS | CentOS release 6.5 |
 
 
 ## Links
@@ -16,6 +20,7 @@ Version: 1.6.2
 [Guide to Faster, Less Frustrating Debugging](http://heather.cs.ucdavis.edu/~matloff/UnixAndC/CLanguage/Debug.html)
 
 [Nginx开发从入门到精通](https://github.com/taobao/nginx-book)
+
 
 ## Sublime Text 3 w/ CTags
 

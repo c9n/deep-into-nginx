@@ -7,7 +7,7 @@
 
 cd ../nginx
 
-./configure --with-debug --with-http_ssl_module
+./configure --with-debug --with-http_ssl_module --with-http_spdy_module
 
 make -B CFLAGS="-ggdb3 -O0"
 

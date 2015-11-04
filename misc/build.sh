@@ -7,7 +7,7 @@
 
 cd ../nginx
 
-./configure --with-debug
+./configure --with-debug --prefix=/Users/Lynn/Developer/deep-into-nginx/misc
 
 make -B CFLAGS="-ggdb3 -O0"
 

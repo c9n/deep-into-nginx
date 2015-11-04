@@ -7,11 +7,7 @@
 
 cd ../nginx
 
-./configure --with-debug --with-http_ssl_module --with-http_spdy_module
+./configure --with-debug
 
 make -B CFLAGS="-ggdb3 -O0"
-
-rm -rf /usr/local/nginx
-
-make install
 

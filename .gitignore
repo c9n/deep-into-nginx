@@ -2,3 +2,4 @@ nginx/objs
 nginx/Makefile
 .tags_sorted_by_file
 .tags
+misc/logs/*.log

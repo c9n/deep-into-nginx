@@ -216,7 +216,7 @@ struct ngx_event_aio_s {
 
 #endif
 
-
+/* Oops */
 typedef struct {
     ngx_int_t  (*add)(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags);
     ngx_int_t  (*del)(ngx_event_t *ev, ngx_int_t event, ngx_uint_t flags);

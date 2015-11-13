@@ -3,6 +3,14 @@ Deep into Nginx
 
 ![Sublime Text 3](misc/img/st3.png)
 
+
+## Stats
+
+| *.h | *.c |
+| :-- | :-- |
+| 169 | 92  |
+
+
 ## Env
 
 | Name | Value |
